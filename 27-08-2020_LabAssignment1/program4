@@ -1,0 +1,21 @@
+x=input('Enter First Number: ')
+y=input('Enter Second Number: ')
+
+print("Value of x before swapping: ",x)
+print("Value of y before swapping: ",y)
+
+temp = x
+x=y
+y=temp
+
+print("Value of x after swapping: ", x)
+print("Value of y after swapping: ", y)
+
+OUTPUT:
+
+Enter First Number:  5
+Enter Second Number:  6
+Value of x before swapping:  5
+Value of y before swapping:  6
+Value of x after swapping:  6
+Value of y after swapping:  5
