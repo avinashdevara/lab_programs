@@ -1,0 +1,9 @@
+b = int(input())
+h=int(input())
+fix=float(0.5)
+print(fix*b*h)
+
+Output 
+5
+ 10
+25.0
