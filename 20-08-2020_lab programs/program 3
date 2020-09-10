@@ -1,0 +1,9 @@
+name="Hello"
+a=(input())
+
+print(name+" "+a)
+
+Output:
+
+Avinash
+Hello Avinash
