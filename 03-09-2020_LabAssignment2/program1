@@ -1,0 +1,13 @@
+def search(arr,i):
+   for x in range(len(arr)):
+      if arr[x]==i:
+         return x
+   return -1
+arr=['q','u','e','r','t','y']
+i='r'
+print("Element found at Index "+str(search(arr,i)))
+
+Output:
+
+Element found at Index 3
+© 2020 GitHub, Inc.
