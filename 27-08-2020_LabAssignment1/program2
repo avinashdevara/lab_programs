@@ -1,0 +1,23 @@
+def prime(n):
+   for x in range(2, n):
+      if n%x==0:
+         return False
+   return True
+def generate_twins(first,last):
+   for x in range(first,last):
+      y=x+2
+      if(prime(x) and prime(y)):
+         print("{:d} and {:d}".format(x,y))
+
+generate_twins(2,100)
+
+
+OUTPUT:
+3 and 5
+5 and 7
+11 and 13
+17 and 19
+29 and 31
+41 and 43
+59 and 61
+71 and 73
