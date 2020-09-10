@@ -1,0 +1,42 @@
+from array import*
+a = array('i',[])
+n = int(input("enter the length of array: "))
+for i in range(n):
+    x = int(input("enter the element: "))
+    a.append(x)
+print(a)
+#copy
+arr = array(a.typecode,[x for x in a])
+print("the copied array is: ",arr)
+#delete duplicate
+b = array(a.typecode,set(a))
+print("after removing same elements from array: ",b)
+t = int(input("enter the index to be removed"))
+b.remove(b[t])
+print("after removing the index is: ",b)
+#element to be searched
+s = int(input("enter the element to be searched: "))
+k=0
+for i in b:
+    if i == s:
+        print("element is found at",a.index(s))
+    k=k+1
+#display contents
+print("the contents to be displayed are:",b)
+
+Output:
+
+enter the length of array: 5
+enter the element:1
+enter the element:3
+enter the element:5
+enter the element:7
+enter the element:9
+array('i'[1,3,5,7,9])
+the copied array is: array('i'[1,3,5,7,9])
+after removing the same elements from array: array('i'[1,3,5,7,9])
+enter the index to be removed 3
+after removing the index is: array('i'[1,3,5,9])
+enter the element to be searched: 5
+element is found at 2
+the contents to be displayed are:array('i'[1,3,5,9])
