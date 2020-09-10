@@ -1,0 +1,17 @@
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+if(a>b):
+    fix=a
+else:
+    fix=b
+while(1):
+    if(fix%a==0 and fix%b==0):
+        print("LCM is:",fix)
+        break
+    fix=fix+1
+    
+    Output:
+    
+    Enter the first number:  2
+Enter the second number:  4
+LCM is: 4
