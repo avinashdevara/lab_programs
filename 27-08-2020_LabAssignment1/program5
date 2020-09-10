@@ -1,0 +1,23 @@
+x=int(input('Enter First number: '))
+y=int(input('Enter Second number '))
+add=x+y
+dif=x-y
+mul=x*y
+div=x/y
+modulus=x%y
+print('Sum of ',x,'and' ,y,'is :',add)
+print('Difference of ',x,'and' ,y ,'is :',dif)
+print('Product of' ,x,'and' ,y,'is :',mul)
+print('Division of ',x ,'and' ,y ,'is :',div)
+print('Modulus of ',x ,'and' ,y,'is :',modulus)
+
+
+OUTPUT:
+
+Enter First number:  10
+Enter Second number  6
+Sum of  10 and 6 is : 16
+Difference of  10 and 6 is : 4
+Product of 10 and 6 is : 60
+Division of  10 and 6 is : 1.6666666666666667
+Modulus of  10 and 6 is : 4
