@@ -1,0 +1,28 @@
+list=[]
+num=int(input("Enter size of list: \t"))
+for n in range(num):
+    numbers=int(input("Enter any number: \t"))
+    list.append(numbers)
+
+x=int(input("\nEnter number to search: \t"))
+found=False
+for i in range(len(list)):
+    if list[i]==x:
+        found=True
+        print("\n%d found at position %d" % (x,i))
+        break
+if not found:
+    print("\n%d is not in list" %x)
+    
+OUTPUT:
+
+Enter size of list: 	5
+Enter any number: 	1
+Enter any number: 	2
+Enter any number: 	3
+Enter any number: 	4
+Enter any number: 	5
+
+Enter number to search: 	3
+
+3 found at position 2
