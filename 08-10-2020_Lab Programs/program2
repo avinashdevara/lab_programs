@@ -50,8 +50,8 @@ llist.push(2)
 
 print("Created Linked List: ")
 llist.printList()
-llist.deleteNode(1)
-print("\nLinked List after Deletion of 1:")
+llist.deleteNode(3)
+print("\nLinked List after Deletion of 3:")
 llist.printList()
 
 OUTPUT: 
@@ -62,7 +62,8 @@ Created Linked List:
  1
  7
 
-Linked List after Deletion of 1:
+Linked List after Deletion of 3:
  2
- 3
+ 1
  7
+ 
