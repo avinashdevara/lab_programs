@@ -1,0 +1,28 @@
+#second smallest element in an array#
+n=int(input("ENTER ARRAY SIZE "))
+
+arr=list()
+
+for i in range(n):
+
+    arr.append(int(input()))
+
+arr=list(set(arr))
+
+arr.sort()
+
+print("SECOND SMALLEST ELEMENT IS ",arr[1])
+
+OUTPUT
+ENTER ARRAY SIZE 5
+
+2
+
+6
+
+8
+
+10
+
+12
+SECOND SMALLEST ELEMENT IS  6
